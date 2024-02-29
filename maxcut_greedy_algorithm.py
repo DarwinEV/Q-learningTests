@@ -1,5 +1,5 @@
 # --------------------------------------------------
-'''Brute force algorithm tries all binary combinations for n nodes -> O(2^n)'''
+''' Brute force algorithm tries all binary combinations for n nodes -> O(2^n) '''
 # --------------------------------------------------
 procedure brute_maxcut(G):
 	Input: Graph G = (V, E) in an adjacency list
@@ -34,7 +34,7 @@ procedure evaluate_state(G, coloring, changed):
 
 
 # --------------------------------------------------
-''' initialize 2^(n / 4) random lists, then evaluate each one. The best one is output'''
+''' initialize 2^(n / 4) random lists, then evaluate each one. The best one is output '''
 # --------------------------------------------------
 procedure randomized_cut(G):
 	Input: Graph G = (V, E) in adjacency list
@@ -69,7 +69,7 @@ procedure evaluate(G, coloring):
 
 
 # --------------------------------------------------
-''' Greedy Algorithm using a priority queue'''
+''' Greedy Algorithm using a priority queue '''
 # --------------------------------------------------
 procedure greedy_one(G):
 	Input: graph G
